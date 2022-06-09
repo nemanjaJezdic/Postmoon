@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.backgroundPhoto{
+    width:100%;
+    min-height: 100px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding: 100px;
+}
+
+.regholder{
+    background-color:#fff;
+    
+}
+
+.footerbg{
+    background-color: #111;
+    padding:10px;
+}
+.textfooter{
+    text-align: center;
+    color:#fff;
+}
+
+.fa-arrow-up:before,
+.fa-arrow-down:before
+{
+    cursor:pointer;
+}
+
+
+@media screen and (max-width:550px){
+    .backgroundPhoto{
+        padding:50px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .backgroundPhoto{
+        padding:0px;
+    }
+}
+
